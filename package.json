@@ -1,0 +1,44 @@
+{
+  "name": "vienhealth-challenge",
+  "version": "1.0.0",
+  "description": "Simple authentication system",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/integration/controllers.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "Health",
+    "Vien",
+    "Coding Challenge"
+  ],
+  "author": "Stanley Hayford",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-bearer-token": "^2.4.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "mongoose-sanitize": "^1.1.0",
+    "validator": "^13.6.0",
+    "xss": "^1.0.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.3.4",
+    "mocha": "^2.4.5",
+    "morgan": "^1.10.0",
+    "supertest": "^1.2.0",
+    "supertest-as-promised": "^3.1.0"
+  }
+}
